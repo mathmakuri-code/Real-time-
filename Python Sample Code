@@ -1,8 +1,12 @@
-# Simple Python program
+# Updated Python Program
 
 def greet(name):
-    return f"Hello, {name}! Welcome to GitHub practice."
+    return f"Hello, {name}! Welcome to GitHub practice session."
+
+def add_numbers(a, b):
+    return a + b
 
 if __name__ == "__main__":
-    user = input("Enter your name: ")
-    print(greet(user))
+    print(greet("Manikanta"))
+    print("The sum of 5 and 3 is:", add_numbers(5, 3))
+

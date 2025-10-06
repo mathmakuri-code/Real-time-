@@ -1,0 +1,8 @@
+// Simple JavaScript program
+
+function greet(name) {
+  return `Hello, ${name}! Welcome to GitHub practice.`;
+}
+
+const user = "Manikanta";
+console.log(greet(user));
